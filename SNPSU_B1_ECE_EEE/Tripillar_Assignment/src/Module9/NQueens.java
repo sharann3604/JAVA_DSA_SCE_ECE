@@ -1,8 +1,6 @@
 package Module9;
 public class NQueens {
-
     static int N = 4;
-
     static boolean isSafe(int board[][], int row, int col) {
 
         for (int i = 0; i < col; i++)
@@ -16,30 +14,21 @@ public class NQueens {
         for (int i = row, j = col; j >= 0 && i < N; i++, j--)
             if (board[i][j] == 1)
                 return false;
-
         return true;
     }
-
     static boolean solveNQ(int board[][], int col) {
-
         if (col >= N)
             return true;
-
         for (int i = 0; i < N; i++) {
-
             if (isSafe(board, i, col)) {
-
                 board[i][col] = 1;
-
                 if (solveNQ(board, col + 1))
                     return true;
-
                 board[i][col] = 0;
             }
         }
         return false;
     }
-
     static void printSolution(int board[][]) {
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < N; j++)
@@ -47,11 +36,8 @@ public class NQueens {
             System.out.println();
         }
     }
-
     public static void main(String[] args) {
-
         int board[][] = new int[N][N];
-
         if (solveNQ(board, 0))
             printSolution(board);
         else
