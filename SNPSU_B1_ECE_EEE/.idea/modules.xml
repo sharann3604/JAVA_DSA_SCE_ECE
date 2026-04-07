@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Assignment2ECE/Assignment2ECE.iml" filepath="$PROJECT_DIR$/Assignment2ECE/Assignment2ECE.iml" />
       <module fileurl="file://$PROJECT_DIR$/SNPSU_B1_ECE_EEE.iml" filepath="$PROJECT_DIR$/SNPSU_B1_ECE_EEE.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tripillar_Assignment/Tripillar_Assignment.iml" filepath="$PROJECT_DIR$/Tripillar_Assignment/Tripillar_Assignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/lib.iml" filepath="$PROJECT_DIR$/lib/lib.iml" />
     </modules>
   </component>
 </project>
